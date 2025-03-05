@@ -1,0 +1,75 @@
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  padding: 20px;
+}
+
+.episodes {
+  width: 30%;
+}
+
+.episodes h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.episodes ul {
+  list-style: none;
+  padding: 0;
+}
+
+.episodes li {
+  padding: 10px;
+  border-bottom: 1px solid #444;
+  cursor: pointer;
+}
+
+.episodes li:hover,
+.episodes li.selected {
+  background-color: #444;
+}
+
+.details {
+  width: 70%;
+  padding-left: 20px;
+}
+
+.details h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.details h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.details p {
+  font-size: 16px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ddd;
+}
